@@ -6,7 +6,7 @@ This project was developed using Node and GraphQL. To test the project, you will
 
 # Initializing the Project
 Clone the project with command: **git clone https://github.com/eduardodevjavagarcia/nodegraphql.git**
-After cloning the project, you should go to the folder where the package is called package.json. In this folder you will have to execute the commands:
+After cloning the project, you should go to the folder where the package is called **package.json**. In this folder you will have to execute the commands:
 - npm install
 - gulp build
 - npm run start
