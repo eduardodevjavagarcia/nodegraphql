@@ -1,2 +1,2 @@
-# nodegraphql
-Applucation with Node and GraphQL
+# Project with Node and GraphQL
+Application with Node and GraphQL
