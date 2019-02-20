@@ -8,7 +8,7 @@ export class PersonInput implements Partial<Person> {
     private id?: number;
 
     @Field({ nullable: false })
-    private name: string;
+    private name?: string;
 
     @Field((type) => Int, { nullable: true })
     private age?: number;
@@ -50,6 +50,22 @@ export class PersonInput implements Partial<Person> {
      */
     public setName(value: string) {
         this.name = value;
+    }
+
+    /**
+     * Getter $age
+     * @return {number}
+     */
+    public getAge(): number {
+        return this.age;
+    }
+
+    /**
+     * Setter $age
+     * @param {number} value
+     */
+    public setAge(value: number) {
+        this.age = value;
     }
 
 }
