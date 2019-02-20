@@ -1,0 +1,48 @@
+{
+  "name": "nodegraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/request-promise": "^4.1.42",
+    "body-parser": "^1.18.3",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-tools": "^4.0.4",
+    "node-fetch": "^2.3.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^0.16.0",
+    "typescript-rest": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.1",
+    "@types/express": "^4.16.1",
+    "@types/express-graphql": "^0.6.2",
+    "@types/graphql": "^14.0.7",
+    "@types/graphql-iso-date": "^3.3.1",
+    "@types/gulp": "^4.0.5",
+    "@types/node": "^11.9.4",
+    "@types/node-fetch": "^2.1.6",
+    "@types/request": "^2.48.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^5.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}
